@@ -16,12 +16,12 @@
             while (true)
             {
                 Console.Clear();
-                Console.Write("0 - Kilépés");
-                Console.Write("1 - Összes név listázása");
-                Console.Write("2 - Csak betűket tartalmazó nevek listázása");
-                Console.Write("3 - Nagybetűvel kezdődő nevek listázása");
-                Console.Write("4 - Rövid nevek listázása");
-                Console.Write("5 - Nagybetűvel kezdődő nevek ahol a többi kicsi" + "és nem tartalmaz számot és speciális jelet");
+                Console.WriteLine("0 - Kilépés");
+                Console.WriteLine("1 - Összes név listázása");
+                Console.WriteLine("2 - Csak betűket tartalmazó nevek listázása");
+                Console.WriteLine("3 - Nagybetűvel kezdődő nevek listázása");
+                Console.WriteLine("4 - Rövid nevek listázása");
+                Console.WriteLine("5 - Nagybetűvel kezdődő nevek ahol a többi kicsi" + "és nem tartalmaz számot és speciális jelet");
                 string valasztas = Console.ReadLine();
                 switch (valasztas)
                 {
