@@ -50,7 +50,16 @@
                         }
 
                         break;
-                    case "3": Console.WriteLine("3"); break;
+
+                    case "3":
+                        Console.Clear();
+                        sorszam = 0;
+                        foreach (string nevek in list)
+                        {
+                            if (char.IsUpper(nevek[0]))
+                                Console.WriteLine($"{sorszam++}. {nevek}");
+                        }
+                        break;
                     case "4": Console.WriteLine("4"); break;
                     case "5": 
                         Console.Clear();
